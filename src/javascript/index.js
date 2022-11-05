@@ -9,6 +9,7 @@ botao.addEventListener("click", function () {
     if (item.value !== "") {
       item.classList.remove("campo-invalido");
       item.classList.add("campo-valido");
+      avisos[indice].classList.remove("mostrar-aviso");
     } else {
       item.classList.remove("campo-valido");
       item.classList.add("campo-invalido");

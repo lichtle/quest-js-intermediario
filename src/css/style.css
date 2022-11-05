@@ -46,7 +46,7 @@ body {
   font-size: 2rem;
 }
 
-.inputs-formulario {
+.inputs-do-formulario {
   min-height: 45rem;
   width: 65%;
   background-color: #fff;
@@ -57,24 +57,20 @@ body {
   gap: 1.4rem;
 }
 
-.formulario .nome,
-.formulario .email,
-.formulario .telefone {
+.formulario .input {
   max-width: 40rem;
   min-height: 4rem;
 }
 
-.formulario .nome,
-.formulario .email,
-.formulario .telefone,
+.formulario .input,
 .formulario .mensagem {
   padding: 0.8rem;
   color: #a8a8a8;
   border: 1px solid black;
 }
 
-.formulario input.input,
-.formulario textarea.mensagem,
+.formulario .input,
+.formulario .mensagem,
 .send-btn {
   border-radius: 0.5rem;
   font-weight: 700;
@@ -111,10 +107,10 @@ body {
   margin-top: -0.9rem;
 }
 
-.formulario input.campo-invalido {
+.formulario .campo-invalido {
   border: 1px solid #f52e2e;
 }
 
-.formulario input.campo-valido {
+.formulario .campo-valido {
   border: 1px solid #00c22b;
 }
