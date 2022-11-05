@@ -1,0 +1,120 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url("../images/bg-repeat.jpg");
+  background-size: contain;
+}
+
+.container-principal {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.saudacao-e-formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.saudacao,
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.saudacao h1,
+.saudacao p {
+  max-width: 75%;
+  color: #fff;
+}
+
+.saudacao h1 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+}
+
+.saudacao p {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.inputs-formulario {
+  min-height: 45rem;
+  width: 65%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 2rem;
+  gap: 1.4rem;
+}
+
+.formulario .nome,
+.formulario .email,
+.formulario .telefone {
+  max-width: 40rem;
+  min-height: 4rem;
+}
+
+.formulario .nome,
+.formulario .email,
+.formulario .telefone,
+.formulario .mensagem {
+  padding: 0.8rem;
+  color: #a8a8a8;
+  border: 1px solid black;
+}
+
+.formulario input.input,
+.formulario textarea.mensagem,
+.send-btn {
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.formulario .mensagem {
+  min-height: 10rem;
+  resize: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.formulario p {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.send-btn {
+  cursor: pointer;
+  background-color: #3ccc87;
+  border: none;
+  padding: 1.5rem;
+  color: #fff;
+}
+
+.aviso {
+  display: none;
+}
+
+.mostrar-aviso {
+  display: block;
+  color: #f52e2e;
+  font-size: 1.3rem;
+  margin-top: -0.9rem;
+}
+
+input.campo-invalido {
+  border: 1px solid #f52e2e;
+}
+
+input.campo-valido {
+  border: 1px solid #00c22b;
+}
