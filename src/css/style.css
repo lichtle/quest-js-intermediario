@@ -111,10 +111,10 @@ body {
   margin-top: -0.9rem;
 }
 
-input.campo-invalido {
+.formulario input.campo-invalido {
   border: 1px solid #f52e2e;
 }
 
-input.campo-valido {
+.formulario input.campo-valido {
   border: 1px solid #00c22b;
 }

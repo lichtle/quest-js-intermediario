@@ -7,8 +7,10 @@ console.log(avisos);
 botao.addEventListener("click", function () {
   inputs.forEach(function (item, indice) {
     if (item.value !== "") {
+      item.classList.remove("campo-invalido");
       item.classList.add("campo-valido");
     } else {
+      item.classList.remove("campo-valido");
       item.classList.add("campo-invalido");
       avisos[indice].classList.add("mostrar-aviso");
     }
