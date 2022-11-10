@@ -10,6 +10,10 @@
     max-width: 100%;
   }
 
+  .saudacao h1 {
+    font-size: 3rem;
+  }
+
   .inputs-do-formulario {
     margin-top: 4rem;
     width: 100%;
